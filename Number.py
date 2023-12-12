@@ -60,3 +60,10 @@ def start_game():
                     print('It\'s lower')
                 elif guess < rand_num:
                     print('It\'s higher')
+        
+        except ValueError as err:
+            print('Oh no!, that is not a valid value. Try again...')
+            print(err)
+
+if __name__ == '__main__':
+    start_game()
