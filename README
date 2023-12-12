@@ -1,0 +1,64 @@
+````markdown
+# Number Guessing Game
+
+Welcome to the Number Guessing Game! This simple Python console game challenges players to guess a randomly generated number within a given range.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [How to Play](#how-to-play)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Randomly generated numbers for each game session
+- Keeps track of the player's attempts
+- Option to replay the game
+- Displays and updates the high score
+
+## Getting Started
+
+To run the Number Guessing Game on your local machine, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Fleur41/Number-Guessing-.git
+   ```
+````
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Number-Guessing-
+   ```
+
+3. Run the game:
+   ```bash
+   python Number.py
+   ```
+   If you're using Python 3, use `python3` instead.
+
+## How to Play
+
+- Enter your name when prompted.
+- Decide if you want to play the guessing game.
+- Input your guesses within the specified range.
+- The game will provide feedback on whether your guess is too high or too low.
+- Try to guess the correct number with the fewest attempts.
+- After each game, you can choose to play again or exit.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`.
+3. Commit your changes: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
